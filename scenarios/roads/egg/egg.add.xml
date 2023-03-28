@@ -1,0 +1,18 @@
+<!-- Reroute to infinity: 2 rerouters needed. 
+  First router routing from last edge to pre-last egde.
+  Second router routing from first edge to last edge (overrides one edge later the first router).
+-->
+
+<additionals>
+  <rerouter id="rerouter_0" edges="gneE22"> 
+    <interval end="1e9">
+      <destProbReroute id="gneE21"/>
+    </interval>
+  </rerouter>
+  
+  <rerouter id="rerouter_1" edges="gneE3">	
+    <interval end="1e9">
+      <destProbReroute id="gneE22"/>
+    </interval>
+  </rerouter>
+</additionals>

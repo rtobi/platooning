@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<routes>
+   <vType vClass="truck" accel="2.0" decel="7.0" id="truckA" length="16.5" minGap="0.1" maxSpeed="30.0" sigma="0.0" lcAccelLat="9.8" maxSpeedLat="10.0" actionStepLength="0.1" />
+   <route id="clockwise" edges="gneE3 gneE34 gneE32 gneE31 gneE30 gneE29 gneE28 gneE27 gneE26 gneE24 gneE16 gneE17 gneE18 gneE19 gneE20 gneE21 gneE22"/>
+
+  <vehicle depart="0.0" id="veh0" route="clockwise" type="truckA" color="0,128,255" departPos="200" departSpeed="22.0" /> 
+  <vehicle depart="0.0" id="veh1" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="0.6" id="veh2" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="1.2" id="veh3" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="1.8" id="veh4" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="2.4" id="veh5" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="3.0" id="veh6" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="4.6" id="veh7" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="5.2" id="veh8" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="5.8" id="veh9" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="6.4" id="veh10" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="7.0" id="veh11" route="clockwise" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+</routes>

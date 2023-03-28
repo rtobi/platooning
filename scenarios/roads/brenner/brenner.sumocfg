@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="brenner.net.xml"/>
+        <route-files value="brenner.rou.xml"/>
+        <additional-files value="brenner.add.xml"/>
+	<gui-settings-file value="gui-settings-paper.cfg"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="5000"/>
+        <step-length value="0.1"/> <!-- Choose step length -->
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+        <step-method.ballistic value="true"/> <!-- USES CONSTANT ACCELERATION IN ONE TIME STEP INSTEAD OF CONSTANT VELOCITY -->
+        <!--<lateral-resolution value="0.2" /> -->
+        <!--<fcd-output value="firsttest.xml"/> -->  <!-- for logging -->
+    </processing>
+</configuration>

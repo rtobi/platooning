@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Feb 18 11:27:50 2021 by Eclipse SUMO duarouter Version 1.5.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="brenner.net.xml"/>
+        <route-files value="trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="output_routes.rou.xml"/>
+        <alternatives-output value="output_routes.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="aut_ita" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="309.23" probability="1.00000000" edges="44572221 44572220 44572235 159160023#0 159160023#1 159160021 662545853 147073130 159160022 26085430 26085460 159160025 159160015#0 159160015#1 159160020 159160019 159160024 876285943 159160012#0 159160012#1 141972997 30609443 424507661 424507660 424507654 424507658 424507656 424507657 424509757 320818776 424509753 41523591#0 41523591#1 41523591#2 41523591#3 41523591#4 141943983 141943976 41523603 41523604#0 41523604#1 41523604#2 463320503"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<services>
+  <!-- Add your services here, artery.application.xx -->
+  <service type="artery.application.CaPlatooningService">
+    <listener port="4711" />
+  </service>
+  
+  <service type="artery.application.platooning.PlatooningServiceEnvmod">
+    <listener port="4444" />
+  </service>
+  
+  <service type="artery.application.platooning.FeudalisticPlatooningService">
+    <listener port="4445" />
+  </service>
+  
+  <service type="artery.application.DenService">
+    <listener port="2002" />
+  </service>
+</services>

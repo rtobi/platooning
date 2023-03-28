@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<routes>
+   <vType vClass="truck" accel="2.0" decel="7.0" id="truckA" length="16.5" minGap="0.1" maxSpeed="50.0" sigma="0.0" lcAccelLat="9.8" maxSpeedLat="10.0" actionStepLength="0.1" />
+   <route id="aut_ita_large" edges="44572235 159160023#0 159160023#1 159160021 662545853 147073130 159160022 
+   26085430 26085460 159160025 159160015#0 159160015#1 159160020 159160019 159160024 876285943 159160012#0 159160012#1 
+   141972997 30609443 424507661 424507660 424507654 424507658 424507656 424507657 424509757 320818776 424509753 41523591#0 
+   41523591#1 41523591#2 41523591#3 41523591#4 141943983 141943976 41523603 41523604#0 41523604#1 41523604#2 463320503"/>
+    
+   <route id="aut_ita_small" edges="159160023#1 159160021 662545853 147073130 159160022 26085430 26085460 
+   159160025 159160015#0 159160015#1 159160020 159160019 159160024 876285943 159160012#0 159160012#1 141972997 30609443 
+   424507661 424507660 424507654 424507658 424507656 424507657 424509757 320818776 424509753 41523591#0 41523591#1 
+   41523591#2"/>
+   
+   <!-- small route is for two eNodeBs, large route for three eNodeBs -->
+
+  <vehicle depart="0.0" id="veh0" route="aut_ita_large" type="truckA" color="0,128,255" departPos="200" departSpeed="22.0" /> 
+  <vehicle depart="0.0" id="veh1" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="0.6" id="veh2" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="1.2" id="veh3" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="1.8" id="veh4" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="2.4" id="veh5" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="3.0" id="veh6" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="4.6" id="veh7" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="5.2" id="veh8" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="5.8" id="veh9" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="6.4" id="veh10" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+  <vehicle depart="7.0" id="veh11" route="aut_ita_large" type="truckA" color="0,128,255" departPos="last" departSpeed="22.0" />
+</routes>

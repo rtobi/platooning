@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usecases>
+    <!-- Add your use cases here artery.application.den.xx -->
+    <usecase type="artery.application.den.AccidentUseCase"/>
+</usecases>
